@@ -11,7 +11,7 @@ class MockPDOStatement extends PDOStatement {
    private $current_row = 0;
    
    public function __construct() {}
-   public function execute($params) {}
+   public function execute($params = NULL) {}
    
    /**
     * Return some dummy data
